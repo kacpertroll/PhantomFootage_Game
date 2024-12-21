@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1e79f94e98f4354c9869d67b33ee4f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 263242
+  packageName: Multi-Input First Person Controller (Lite)
+  packageVersion: 1.0
+  assetPath: Assets/Resources/SimplePlayerData.asset
+  uploadId: 621915

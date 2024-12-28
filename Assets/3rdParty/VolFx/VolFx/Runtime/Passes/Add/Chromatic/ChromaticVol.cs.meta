@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 584f4d053daa4e17a331821f306111c9
+timeCreated: 1676459180
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Add/Chromatic/ChromaticVol.cs
+  uploadId: 717632

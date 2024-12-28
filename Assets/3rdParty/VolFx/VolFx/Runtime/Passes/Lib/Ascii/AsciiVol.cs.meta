@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ba41c240f778d164abc40f8dca90fc16
+timeCreated: 1696967500
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Lib/Ascii/AsciiVol.cs
+  uploadId: 717632

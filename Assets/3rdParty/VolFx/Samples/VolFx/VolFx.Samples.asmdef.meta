@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 554804cf8c6bf9544a3f8ff20f3bcbac
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/Samples/VolFx/VolFx.Samples.asmdef
+  uploadId: 717632

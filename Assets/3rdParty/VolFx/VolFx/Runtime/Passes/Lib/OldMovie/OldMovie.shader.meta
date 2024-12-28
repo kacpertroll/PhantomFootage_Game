@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 27668d75c3bc9f041b7aad866245687b
+timeCreated: 1696188635
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Lib/OldMovie/OldMovie.shader
+  uploadId: 717632

@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.279
+    m_Value: 0.2
 --- !u!114 &-5391226798973997169
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -60,7 +60,35 @@ MonoBehaviour:
   - {fileID: -8690597180330707058}
   - {fileID: -5391226798973997169}
   - {fileID: 2732790289567014297}
-  - {fileID: 3120936135839892794}
+  - {fileID: 3638839045587729855}
+  - {fileID: 1501111721936518106}
+  - {fileID: 8118300978700039884}
+  - {fileID: 3357432543081630125}
+--- !u!114 &1501111721936518106
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96468967439741488ad1b1af1ab44b9b, type: 3}
+  m_Name: ScanlinesVol
+  m_EditorClassIdentifier: 
+  active: 1
+  m_Intensity:
+    m_OverrideState: 1
+    m_Value: 0.4
+  m_Count:
+    m_OverrideState: 1
+    m_Value: 740
+  m_Speed:
+    m_OverrideState: 1
+    m_Value: 0.11
+  m_Flicker:
+    m_OverrideState: 1
+    m_Value: 0.177
 --- !u!114 &1623789893973837449
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -122,7 +150,7 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 2.5
   contrast:
     m_OverrideState: 1
     m_Value: 17
@@ -187,6 +215,101 @@ MonoBehaviour:
   _pulsation:
     m_OverrideState: 1
     m_Value: 14
+--- !u!114 &3357432543081630125
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f0f34434172684f90e4c0903cf4488, type: 3}
+  m_Name: DitherVol
+  m_EditorClassIdentifier: 
+  active: 1
+  m_Impact:
+    m_OverrideState: 1
+    m_Value: 0.5
+  m_Power:
+    m_OverrideState: 1
+    m_Value: 0
+  m_Scale:
+    m_OverrideState: 0
+    m_Value: 1
+  m_Pixelate:
+    m_OverrideState: 1
+    m_Value: 1
+  m_Fps:
+    m_OverrideState: 0
+    m_Value: 0
+  m_Palette:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 48617b1b08e98df4c9d795adf0e72b1b, type: 3}
+  m_Pattern:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  m_Mode:
+    m_OverrideState: 0
+    m_Value: 0
+  m_NoiseScale:
+    m_OverrideState: 0
+    m_Value: 1
+  m_Noise:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+--- !u!114 &3638839045587729855
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb2952b95454955ba507c3d96778a76, type: 3}
+  m_Name: VhsVol
+  m_EditorClassIdentifier: 
+  active: 1
+  _weight:
+    m_OverrideState: 1
+    m_Value: 0.093
+  _tape:
+    m_OverrideState: 1
+    m_Value: 0.16
+  _shades:
+    m_OverrideState: 1
+    m_Value: 1.81
+  _rocking:
+    m_OverrideState: 1
+    m_Value: 0.0629
+  _squeeze:
+    m_OverrideState: 1
+    m_Value: 0.728
+  _density:
+    m_OverrideState: 1
+    m_Value: 0.053
+  _intensity:
+    m_OverrideState: 1
+    m_Value: 0.093
+  _scale:
+    m_OverrideState: 1
+    m_Value: 3
+  _flickering:
+    m_OverrideState: 1
+    m_Value: 0
+  _color:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 0, b: 0, a: 1}
+  _bleed:
+    m_OverrideState: 1
+    m_Value: 0.06
+  _flow:
+    m_OverrideState: 0
+    m_Value: 2.4
+  _pulsation:
+    m_OverrideState: 0
+    m_Value: 1.39
 --- !u!114 &5880978086765056546
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -241,5 +364,40 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0.468
   rounded:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &8118300978700039884
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772ef47f3fce34346bbb42fb4f5434b8, type: 3}
+  m_Name: PixelationVol
+  m_EditorClassIdentifier: 
+  active: 1
+  m_Scale:
+    m_OverrideState: 1
+    m_Value: 0.95
+  m_Grid:
+    m_OverrideState: 1
+    m_Value: 0.8
+  m_Roundness:
+    m_OverrideState: 1
+    m_Value: 1
+  m_Color:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 0
+  m_Palette:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  m_Impact:
+    m_OverrideState: 0
+    m_Value: 0
+  m_Crisp:
     m_OverrideState: 0
     m_Value: 0

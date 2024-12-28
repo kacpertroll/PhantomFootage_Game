@@ -1,0 +1,17 @@
+{
+  "name": "www.nulltale.volfx",
+  "displayName": "VolFx",
+  "version": "2.3.3",
+  "unity": "2022.1",
+  "description": "VFX Core ☄ Modular VFX Post-Processing",
+  "documentationUrl": "https://forum.unity.com/threads/1542860",
+  "author": {
+    "name": "NullTale",
+    "email": "nulltale@gmail.com",
+    "url": "https://x.com/NullTale"
+  },
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "14.0.6"
+  },
+  "hideInEditor": false
+}

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c30ff1859323b764d8b10494d81622a8
+timeCreated: 1678733830
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/ScreenFx/Runtime/Timeline/Camera/CameraBehaviour.cs
+  uploadId: 717632

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c9a874e7c407cc848a426ba6993b9b06
+timeCreated: 1678733829
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/ScreenFx/Runtime/Timeline/Camera/CameraTrack.cs
+  uploadId: 717632

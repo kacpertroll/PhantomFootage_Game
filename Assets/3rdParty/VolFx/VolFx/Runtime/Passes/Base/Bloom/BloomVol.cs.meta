@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 318746fcd28a4c69b04bd76bb679e99e
+timeCreated: 1693998281
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Base/Bloom/BloomVol.cs
+  uploadId: 717632

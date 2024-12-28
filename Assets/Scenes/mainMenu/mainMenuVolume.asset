@@ -127,6 +127,31 @@ MonoBehaviour:
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &-2497921187550868881
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96468967439741488ad1b1af1ab44b9b, type: 3}
+  m_Name: ScanlinesVol
+  m_EditorClassIdentifier: 
+  active: 1
+  m_Intensity:
+    m_OverrideState: 1
+    m_Value: 0.3
+  m_Count:
+    m_OverrideState: 0
+    m_Value: 570
+  m_Speed:
+    m_OverrideState: 1
+    m_Value: 0.1
+  m_Flicker:
+    m_OverrideState: 1
+    m_Value: 0.25
 --- !u!114 &-474893809727527964
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -171,6 +196,7 @@ MonoBehaviour:
   - {fileID: -474893809727527964}
   - {fileID: -3874812333172850925}
   - {fileID: 4333999041925868310}
+  - {fileID: -2497921187550868881}
 --- !u!114 &3476719629418959270
 MonoBehaviour:
   m_ObjectHideFlags: 3

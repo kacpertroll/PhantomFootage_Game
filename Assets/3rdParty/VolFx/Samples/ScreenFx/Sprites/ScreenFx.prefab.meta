@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abb6187788359bd41b93c8a4cfc213a4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/Samples/ScreenFx/Sprites/ScreenFx.prefab
+  uploadId: 717632

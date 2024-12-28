@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 344856bdfaf64039b7001909071c8d7c
+timeCreated: 1728084817
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Utils/NoInterpGradientParameter.cs
+  uploadId: 717632

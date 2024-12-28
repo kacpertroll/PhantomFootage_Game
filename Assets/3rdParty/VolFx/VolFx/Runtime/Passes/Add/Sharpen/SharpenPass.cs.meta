@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 125142d956014102a2983be8a46260c7
+timeCreated: 1676451700
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Add/Sharpen/SharpenPass.cs
+  uploadId: 717632

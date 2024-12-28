@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 1df191b2aeb34997b879a9f19827d298
+timeCreated: 1699536988
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Lib/Outline/OutlinePass.cs
+  uploadId: 717632

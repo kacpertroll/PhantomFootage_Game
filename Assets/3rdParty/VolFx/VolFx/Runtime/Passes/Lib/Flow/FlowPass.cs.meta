@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0a4a3c9fc53e47eeb28b368324d7020f
+timeCreated: 1698823799
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Lib/Flow/FlowPass.cs
+  uploadId: 717632

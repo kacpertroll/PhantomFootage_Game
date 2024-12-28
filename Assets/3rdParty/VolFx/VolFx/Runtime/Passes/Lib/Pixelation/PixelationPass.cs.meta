@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 14ba4625d5562404f9f843158bcce61c
+timeCreated: 1676448249
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Lib/Pixelation/PixelationPass.cs
+  uploadId: 717632

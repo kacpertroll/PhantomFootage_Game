@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class doorAnimationController : MonoBehaviour, IInteractableHold
 {
-    public bool IsLocked = false;
-    public static bool isLocked = false;
+    public bool IsLocked;
+    public static bool isLocked;
+    public string Dialogue;
 
     private bool isOpen = false;
     private bool isSlight = false;
@@ -21,16 +22,24 @@ public class doorAnimationController : MonoBehaviour, IInteractableHold
         }
     }
 
+    void Update()
+    {
+        if(animator.GetBool("IsOpen"))
+        {
+            IsLocked = false;
+        }
+    }
+
     public void Interact()
     {
-        if (isLocked)
+        if (IsLocked)
         {
             if (DialogueManager.Instance.isMessageDisplaying == false)
             {
-                DialogueManager.Instance.CommentMessage("It's locked. No going thorugh without code.");
+                DialogueManager.Instance.CommentMessage(Dialogue);
             }
         }
-        else if (animator != null && !isLocked)
+        else if (animator != null && !IsLocked)
         {
             if (isSlight)
             {
@@ -45,7 +54,6 @@ public class doorAnimationController : MonoBehaviour, IInteractableHold
                 isOpen = !isOpen;
                 animator.SetBool("IsOpen", isOpen);
             }
-            
         }
     }
 

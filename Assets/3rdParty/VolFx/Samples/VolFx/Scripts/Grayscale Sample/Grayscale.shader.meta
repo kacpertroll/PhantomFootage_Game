@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: fc78cc8bb01197248b8a758ee38592b9
+timeCreated: 1693928043
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/Samples/VolFx/Scripts/Grayscale Sample/Grayscale.shader
+  uploadId: 717632

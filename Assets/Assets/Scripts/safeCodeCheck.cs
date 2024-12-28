@@ -3,6 +3,7 @@ using UnityEngine;
 public class safeCodeCheck : MonoBehaviour
 {
     public string codeValid;
+    public string Dialogue;
 
     public GameObject code_1;
     public GameObject code_2;
@@ -33,7 +34,7 @@ public class safeCodeCheck : MonoBehaviour
             code_3.tag = "Untagged";
             if (DialogueManager.Instance.isMessageDisplaying == false)
             {
-                DialogueManager.Instance.CommentMessage("Great... more shit to write down.");
+                DialogueManager.Instance.CommentMessage(Dialogue);
             }
         }
     }

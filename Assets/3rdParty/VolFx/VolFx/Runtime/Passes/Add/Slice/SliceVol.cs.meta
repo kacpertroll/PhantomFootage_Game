@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f0e86679a2284a4ca49d75916bcd95c3
+timeCreated: 1692822771
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Add/Slice/SliceVol.cs
+  uploadId: 717632

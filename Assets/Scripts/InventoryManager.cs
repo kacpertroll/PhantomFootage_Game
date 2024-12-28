@@ -6,6 +6,7 @@ public class InventoryManager : MonoBehaviour
     public static InventoryManager Inventory;
 
     public bool mainGateCard = false;
+    public bool keypadKey = false;
 
     void Awake()
     {

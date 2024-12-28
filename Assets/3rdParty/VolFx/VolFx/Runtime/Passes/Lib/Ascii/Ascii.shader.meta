@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: e3111a8d989e6a547a827386135ea0f8
+timeCreated: 1696967500
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Lib/Ascii/Ascii.shader
+  uploadId: 717632

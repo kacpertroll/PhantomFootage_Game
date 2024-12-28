@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 931c6fccd959f4d4398ee7dc1ebecc4f
+timeCreated: 1678733830
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/ScreenFx/Runtime/Timeline/Camera/MoveAsset.cs
+  uploadId: 717632

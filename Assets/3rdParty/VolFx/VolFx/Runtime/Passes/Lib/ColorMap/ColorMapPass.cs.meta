@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c2c8d156cebe46b383a5291e7e5d4ba2
+timeCreated: 1699541924
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Lib/ColorMap/ColorMapPass.cs
+  uploadId: 717632

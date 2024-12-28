@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a181405f9bf44aef9074ccf0a6292106
+timeCreated: 1693982091
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Base/Bloom/Bloom.shader
+  uploadId: 717632

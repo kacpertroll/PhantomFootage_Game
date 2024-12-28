@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 739ed4e388b507b44b213d5895cff669
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/ScreenFx/Runtime/ScreenFx.Runtime.asmdef
+  uploadId: 717632

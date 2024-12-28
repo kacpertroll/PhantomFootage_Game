@@ -13,8 +13,11 @@ public class CameraManager : MonoBehaviour
     public GameObject CamcorderCamera;
     public Camera mainCamera;
     public GameObject Outline;
-    
 
+    private void Start()
+    {
+        batteryPrec = 1000;
+    }
     // Update is called once per frame
     void Update()
     {

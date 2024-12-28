@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 4e4dd60f5d54a1d48bb205ea494066a7
+timeCreated: 1693510411
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/ScreenFx/Runtime/Timeline/Camera/NoiseAsset.cs
+  uploadId: 717632

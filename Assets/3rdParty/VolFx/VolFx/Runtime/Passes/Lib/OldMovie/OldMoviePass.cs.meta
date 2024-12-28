@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a7f695f3ae759674980e12c427c4ed58
+timeCreated: 1696188635
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Lib/OldMovie/OldMoviePass.cs
+  uploadId: 717632

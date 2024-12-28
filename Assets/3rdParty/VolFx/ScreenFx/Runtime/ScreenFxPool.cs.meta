@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d240f84a60b6ee8478b04b921d054b0d
+timeCreated: 1698396356
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/ScreenFx/Runtime/ScreenFxPool.cs
+  uploadId: 717632

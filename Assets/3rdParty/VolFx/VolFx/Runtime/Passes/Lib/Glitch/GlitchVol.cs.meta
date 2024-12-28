@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 2aebac967aa993140ab1982d43b8450a
+timeCreated: 1699535003
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Lib/Glitch/GlitchVol.cs
+  uploadId: 717632

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: eecc13e7dfb840cca948414bfb3cbc79
+timeCreated: 1692822771
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Add/Slice/Slice.shader
+  uploadId: 717632

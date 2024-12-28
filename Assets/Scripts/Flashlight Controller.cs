@@ -2,9 +2,15 @@ using UnityEngine;
 
 public class FlashlightController : MonoBehaviour
 {
-    public Light flashlight;
-    public AudioSource clickSound;
-    // Update is called once per frame
+    private Light flashlight;
+    private AudioSource clickSound;
+    
+    private void Start()
+    {
+        flashlight = GetComponentInChildren<Light>();
+        clickSound = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         if (flashlight != null)

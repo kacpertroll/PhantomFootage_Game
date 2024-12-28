@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 56bfbb06e13699f4fb9caf74d92cae3d
+timeCreated: 1693927884
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/Samples/VolFx/Scripts/Grayscale Sample/GrayscaleVol.cs
+  uploadId: 717632

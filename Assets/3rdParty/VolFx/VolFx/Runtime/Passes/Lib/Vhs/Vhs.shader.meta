@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 074eb04a5009453ea004483946e7c745
+timeCreated: 1699535003
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/Lib/Vhs/Vhs.shader
+  uploadId: 717632

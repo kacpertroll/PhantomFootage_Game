@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5f61da571db4a6b499443747826c2c3e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/Tools/Runtime/VolFxPool.cs
+  uploadId: 717632

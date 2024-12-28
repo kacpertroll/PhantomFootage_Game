@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2340a993d6e3cc74eaac4aeda78af3b7
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/ScreenFx/Editor/ScreenFx.Editor.asmdef
+  uploadId: 717632

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c5cfe54249bd42e5b766116014c786bb
+timeCreated: 1723371114
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/ScreenFx/Runtime/Timeline/Time/TimeTrack.cs
+  uploadId: 717632

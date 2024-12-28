@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 154bf9ec09e07f44f962462054795aa4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit
+  packageVersion: 2.3.2
+  assetPath: Assets/VolFx/Samples/VolFx/Scripts/VolFx_SetUrpAsset.cs
+  uploadId: 717632

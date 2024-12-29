@@ -40,13 +40,13 @@ MonoBehaviour:
   active: 0
   m_Scale:
     m_OverrideState: 1
-    m_Value: 0.95
+    m_Value: 0.99
   m_Grid:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0.709
   m_Roundness:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   m_Color:
     m_OverrideState: 0
     m_Value: {r: 0, g: 0, b: 0, a: 0}

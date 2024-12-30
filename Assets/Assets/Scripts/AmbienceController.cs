@@ -8,10 +8,11 @@ public class AmbienceController : MonoBehaviour
 
     private float targetIndoorVolume = 0f; // Docelowa g³oœnoœæ dla indoor
     private float targetOutdoorVolume = 0.1f; // Docelowa g³oœnoœæ dla outdoor
-    private int triggerCounter = 0; // Licznik wejœæ do triggerów
+    public static int triggerCounter = 0; // Licznik wejœæ do triggerów
 
     private void Start()
     {
+        triggerCounter = 0;
         // Ustaw pocz¹tkowe g³oœnoœci
         AmbienceIndoor.volume = 0f;
         AmbienceOutdoor.volume = 0.1f;
@@ -32,7 +33,7 @@ public class AmbienceController : MonoBehaviour
             triggerCounter++;
             if (triggerCounter == 1) // Tylko jeœli to pierwsze wejœcie, zmieniamy g³oœnoœci
             {
-                targetIndoorVolume = 0.1f;
+                targetIndoorVolume = 0.05f;
                 targetOutdoorVolume = 0f;
             }
         }
@@ -47,7 +48,7 @@ public class AmbienceController : MonoBehaviour
             if (triggerCounter == 0) // Tylko jeœli opuœci³ wszystkie triggery, zmieniamy g³oœnoœci
             {
                 targetIndoorVolume = 0f;
-                targetOutdoorVolume = 0.1f;
+                targetOutdoorVolume = 0.05f;
             }
         }
     }

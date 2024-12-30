@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 318746fcd28a4c69b04bd76bb679e99e, type: 3}
   m_Name: BloomVol
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_Intencity:
     m_OverrideState: 1
     m_Value: 0.7
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1f0f34434172684f90e4c0903cf4488, type: 3}
   m_Name: DitherVol
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_Impact:
     m_OverrideState: 1
     m_Value: 0.7

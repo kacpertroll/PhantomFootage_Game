@@ -9,6 +9,7 @@ public class NoteInspector : MonoBehaviour
     public Image background;
     public GameObject displayNote;
     public MonoBehaviour playerMovementScript; // Skrypt odpowiedzialny za ruch postaci
+    public MonoBehaviour camcorderControllerScript;
 
     private bool isNoteVisible = false;
 
@@ -26,14 +27,16 @@ public class NoteInspector : MonoBehaviour
         textNote.text = noteText;
         textDate.text = noteDate;
         displayNote.SetActive(true);
-        playerMovementScript.enabled = false; // Wy³¹cza ruch postaci
+        playerMovementScript.enabled = false;
+        camcorderControllerScript.enabled = false;// Wy³¹cza ruch postaci
         isNoteVisible = true;
     }
 
     private void CloseNote()
     {
         displayNote.SetActive(false);
-        playerMovementScript.enabled = true; // W³¹cza ruch postaci z powrotem
+        playerMovementScript.enabled = true;
+        camcorderControllerScript.enabled = true;
         isNoteVisible = false;
     }
 }

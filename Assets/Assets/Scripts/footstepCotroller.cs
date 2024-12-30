@@ -9,6 +9,9 @@ public class FootstepController : MonoBehaviour
     public float stepInterval = 0.5f; // Czas pomiêdzy krokami w sekundach
     private float sprintInterval;
 
+    private int firstSound = 0;
+    private int lastSound = 3;
+
     private float stepTimer = 0f; // Timer do obs³ugi interwa³u kroków
 
     private void Start()
@@ -18,6 +21,19 @@ public class FootstepController : MonoBehaviour
 
     private void Update()
     {
+        if (AmbienceController.triggerCounter >= 1)
+        {
+            firstSound = 4;
+            lastSound = 7;
+            footstepAudioSource.volume = 0.1f;
+        }
+        else
+        {
+            firstSound = 0;
+            lastSound = 3;
+            footstepAudioSource.volume = 0.01f;
+        }
+
         // Sprawdzanie, czy postaæ siê porusza
         if (FirstPersonController.isWalking)
         {
@@ -53,7 +69,7 @@ public class FootstepController : MonoBehaviour
         if (footstepClips.Length > 0)
         {
             // Wybierz losowy dŸwiêk z tablicy
-            AudioClip clip = footstepClips[Random.Range(0, footstepClips.Length)];
+            AudioClip clip = footstepClips[Random.Range(firstSound, lastSound)];
 
             // Ustaw losowy pitch
             footstepAudioSource.pitch = Random.Range(minPitch, maxPitch);

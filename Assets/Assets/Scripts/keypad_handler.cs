@@ -54,7 +54,7 @@ public class keypad_handler : MonoBehaviour
         // Tutaj odblokowujesz drzwi (np. wywo³anie animacji lub zmiana stanu)
         if (Door != null)
         {
-            doorAnimationController.isLocked = false;
+            Door.GetComponent<doorAnimationController>().isLocked = false;
             Animator doorAnimator = Door.GetComponent<Animator>();
             if (doorAnimator != null)
             {

@@ -17,7 +17,7 @@ public class ObjectiveInteractor : MonoBehaviour, IInteractableHold
 
     public void Interact()
     {
-        if (DialogueManager.Instance.isMessageDisplaying == false)
+        if (DialogueManager.Instance.isMessageDisplaying == false && findMessage != null)
         {
             objectiveHandler.ObjectiveFound(findMessage);
             gameObject.SetActive(false);

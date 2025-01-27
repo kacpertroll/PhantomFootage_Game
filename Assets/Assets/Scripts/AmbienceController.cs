@@ -33,7 +33,7 @@ public class AmbienceController : MonoBehaviour
             triggerCounter++;
             if (triggerCounter == 1) // Tylko jeœli to pierwsze wejœcie, zmieniamy g³oœnoœci
             {
-                targetIndoorVolume = 0.05f;
+                targetIndoorVolume = 0.04f;
                 targetOutdoorVolume = 0f;
             }
         }
@@ -48,7 +48,7 @@ public class AmbienceController : MonoBehaviour
             if (triggerCounter == 0) // Tylko jeœli opuœci³ wszystkie triggery, zmieniamy g³oœnoœci
             {
                 targetIndoorVolume = 0f;
-                targetOutdoorVolume = 0.05f;
+                targetOutdoorVolume = 0.04f;
             }
         }
     }

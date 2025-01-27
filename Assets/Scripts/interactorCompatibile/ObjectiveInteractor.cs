@@ -6,7 +6,7 @@ public class ObjectiveInteractor : MonoBehaviour, IInteractableHold
 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

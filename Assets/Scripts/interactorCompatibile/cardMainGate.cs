@@ -11,6 +11,7 @@ public class cardMainGate : MonoBehaviour, IInteractableHold
         {
             GameObject.SetActive(false);
             InventoryManager.Inventory.mainGateCard = true;
+            objectiveHandler.ObjectivePopup("Access card added to Inventory");
             DialogueManager.Instance.CommentMessage("That should work.");
         }
     }

@@ -50,6 +50,28 @@ MonoBehaviour:
   clamp:
     m_OverrideState: 0
     m_Value: 0.15
+--- !u!114 &-1649129341174089870
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5485954d14dfb9a4c8ead8edb0ded5b1, type: 3}
+  m_Name: LiftGammaGain
+  m_EditorClassIdentifier: 
+  active: 0
+  lift:
+    m_OverrideState: 1
+    m_Value: {x: 0.8979894, y: 0.88791573, z: 1, w: 0.02247191}
+  gamma:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  gain:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
 --- !u!114 &-1636839927867855795
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -81,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 318746fcd28a4c69b04bd76bb679e99e, type: 3}
   m_Name: BloomVol
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_Intencity:
     m_OverrideState: 1
     m_Value: 0.7
@@ -238,6 +260,8 @@ MonoBehaviour:
   - {fileID: -4782879499071035717}
   - {fileID: 7110720456318608711}
   - {fileID: -1631792997913639974}
+  - {fileID: 8504581303995887637}
+  - {fileID: -1649129341174089870}
 --- !u!114 &2615125406047564261
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -377,7 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1f0f34434172684f90e4c0903cf4488, type: 3}
   m_Name: DitherVol
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_Impact:
     m_OverrideState: 1
     m_Value: 0.8
@@ -408,6 +432,52 @@ MonoBehaviour:
   m_Noise:
     m_OverrideState: 1
     m_Value: {fileID: 2800000, guid: 740b841d649449f428b57372f4eb05f2, type: 3}
+--- !u!114 &8504581303995887637
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
+  m_Name: DepthOfField
+  m_EditorClassIdentifier: 
+  active: 0
+  mode:
+    m_OverrideState: 1
+    m_Value: 1
+  gaussianStart:
+    m_OverrideState: 1
+    m_Value: 0
+  gaussianEnd:
+    m_OverrideState: 1
+    m_Value: 0
+  gaussianMaxRadius:
+    m_OverrideState: 1
+    m_Value: 1.5
+  highQualitySampling:
+    m_OverrideState: 0
+    m_Value: 0
+  focusDistance:
+    m_OverrideState: 1
+    m_Value: 2
+  aperture:
+    m_OverrideState: 1
+    m_Value: 8
+  focalLength:
+    m_OverrideState: 1
+    m_Value: 66.08
+  bladeCount:
+    m_OverrideState: 0
+    m_Value: 5
+  bladeCurvature:
+    m_OverrideState: 0
+    m_Value: 1
+  bladeRotation:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &8949153172577712800
 MonoBehaviour:
   m_ObjectHideFlags: 3

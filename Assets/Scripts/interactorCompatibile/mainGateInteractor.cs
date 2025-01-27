@@ -34,6 +34,7 @@ public class mainGateInteractor : MonoBehaviour, IInteractableHold
             if (InventoryManager.Inventory.mainGateCard == true && animator.GetBool("open") == false)
             {
                 gateOpen.PlayDelayed(1);
+                objectiveHandler.ObjectivePopup("Access Card used");
                 animator.SetBool("open", true);
                 DialogueManager.Instance.CommentMessage("That checks out.");
                 transform.gameObject.tag = "Untagged";

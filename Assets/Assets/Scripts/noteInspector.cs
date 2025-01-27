@@ -34,6 +34,7 @@ public class NoteInspector : MonoBehaviour
 
     private void CloseNote()
     {
+        objectiveHandler.ObjectivePopup("Note saved");
         displayNote.SetActive(false);
         playerMovementScript.enabled = true;
         camcorderControllerScript.enabled = true;

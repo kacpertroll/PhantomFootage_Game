@@ -14,6 +14,7 @@ public class batteryPickup : MonoBehaviour, IInteractableHold
         {
             DialogueManager.Instance.CommentMessage("That'll be useful");
             CameraManager.batteryPrec = 1000f;
+            objectiveHandler.ObjectivePopup("Camera battery set to 100%");
             Destroy(gameObject);
         }    
         Debug.Log("Interacted");

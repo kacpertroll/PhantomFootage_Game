@@ -18,6 +18,7 @@ public class keyPad_buttonCheck : MonoBehaviour, IInteractableHold
         }
         else
         {
+            objectiveHandler.ObjectivePopup("Missing Button used");
             animator.SetBool("keyInstal", true);
         }
     }
